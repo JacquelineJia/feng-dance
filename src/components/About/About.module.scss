@@ -1,0 +1,25 @@
+@import "../../styles/_colors";
+
+.pageContent {
+  margin: 0;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: justify;
+
+  .title {
+    display: block;
+    font-size: 32px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .subtitle {
+    display: block;
+    font-size: 24px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  .content {
+  }
+}

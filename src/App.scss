@@ -1,0 +1,45 @@
+@import "./styles/_colors";
+
+html, body, #root {
+  height: 100%;
+}
+
+.app {
+  min-height: 100%;
+}
+
+.app {
+  color: $dark-gray;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  justify-content: space-between;
+  line-height: 24px;
+  text-align: left;
+}
+
+.appPaddingWrapper {
+  display: flex;
+  justify-content: center;
+  padding-left: calc(5% + 40px);
+  padding-right: calc(5% + 40px);
+  @media (max-width: 1023px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @media (max-width: 767px) {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+.appContentWidth {
+  margin: 0;
+  max-width: 1150px;
+  width: 100%;
+}
+
+.pageContent {
+  flex-grow: 2;
+}

@@ -1,0 +1,86 @@
+@import "../../styles/_colors";
+
+.navBar {
+  background-color: transparent;
+  box-sizing: border-box;
+  color: $light-gray;
+  font-size: 18px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: $primary-color-fadded-alittle;
+}
+
+.body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  text-shadow: 0px 0px 5px $black;
+
+  .name {
+    color: $white;
+    cursor: pointer;
+    font-size: 22px;
+    margin-bottom: 0.25em;
+    margin-right: 25px;
+    a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  .menu {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    vertical-align: bottom;
+    .pageOpen {
+      color: $white;
+    }
+    a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+    }
+    span {
+      color: $light-light-gray;
+      cursor: pointer;
+      margin-right: 30px;
+      white-space: nowrap;
+      &:hover {
+        color: $white;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.languageButton {
+  background-color: $white;
+  border-radius: 4px;
+  border: none;
+  color: $primary-color;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: auto;
+  max-height: 2em;
+  min-width: 65px;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
+  &:hover {
+    background-color: $white-slightly-fadded;
+  }
+}
