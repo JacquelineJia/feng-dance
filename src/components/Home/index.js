@@ -15,7 +15,7 @@ class Home extends Component {
         <span className={style.content}>
           <FormattedMessage
             id="components.home.content.aboutUs"
-            defaultMessage="Established in 1988, Oriental Dance Troupe of Ottawa has the longest performing history of Chinese dance in national capital region."
+            defaultMessage="Feng Dance School has more than 30 years of professional dance performance and teaching history in Canada. At present, Feng Dance School offers ballet, jazz, jazz funk, Chinese dance, hip-hop and flexibility training classes, taught by professional dance teachers."
             values={{
               br: <span><br /><br /></span>,
             }}

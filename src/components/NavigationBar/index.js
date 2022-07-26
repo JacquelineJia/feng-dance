@@ -16,7 +16,7 @@ class NavigationBar extends React.Component {
               <Link to="/">
                 <FormattedMessage
                   id="components.navigationBar.menu.title"
-                  defaultMessage="Oriental Dance Troupe of Ottawa"
+                  defaultMessage="Feng Dance School"
                 />
               </Link>
             </div>

@@ -53,11 +53,11 @@ class App extends React.Component {
       <IntlProvider {...i18nConfig}>
         <div className="app">
           <Helmet>
-            <title>Oriental Dance Troupe of Ottawa</title>
-            <meta name="keywords" content="ottawa,oriental,dance,troupe,chinese,traditional,classical,odto,dongfangwudaotuan,渥太华东方舞蹈团,渥太华,东方舞蹈团"/>
-            <meta name="description" content="Established in 1988, Oriental Dance Troupe of Ottawa has the longest performing history of Chinese dance in national capital region."/>
-            <meta name="subject" content="Oriental Dance Troupe of Ottawa"/>
-            <meta name="copyright"content="Oriental Dance Troupe of Ottawa"/>
+            <title>Feng Dance School</title>
+            <meta name="keywords" content="ottawa,feng,dance,school,studio,children,class,classes,ballet,jazz,funk,hip,hop,flexibility,training,technique,chinese,traditional,classical,program"/>
+            <meta name="description" content="Feng Dance School has more than 30 years of professional dance performance and teaching history in Canada. At present, Feng Dance School offers ballet, jazz, jazz funk, Chinese dance, hip-hop and flexibility training classes, taught by professional dance teachers."/>
+            <meta name="subject" content="Ottawa Feng Dance School"/>
+            <meta name="copyright"content="Ottawa Feng Dance School"/>
             <meta name="language" content="EN"/>
           </Helmet>
           <Router>
