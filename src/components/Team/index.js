@@ -25,7 +25,7 @@ class Team extends Component {
                 <span className={style.role}>
                   <FormattedMessage
                     id="components.about.content.ourTeam.instructor.0"
-                    defaultMessage="Ballet instructor"
+                    defaultMessage="Director, Ballet Instructor"
                   />
                 </span>
               </span>
@@ -53,7 +53,7 @@ class Team extends Component {
                 <span className={style.role}>
                   <FormattedMessage
                     id="components.about.content.ourTeam.director"
-                    defaultMessage="director"
+                    defaultMessage="Director"
                   />
                 </span>
               </span>

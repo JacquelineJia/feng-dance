@@ -14,7 +14,11 @@ class Footer extends Component {
             />
           </span>
           <span>
-            fengdancestudio@gmail.com
+            <a className={style.link} 
+              href="mailto:dongfangwudaotuan@gmail.com"
+              target="_blank">
+              fengdancestudio@gmail.com
+            </a>
           </span>
           <span>
             (613) 864-6588
@@ -23,7 +27,7 @@ class Footer extends Component {
           <span className={style.copyright}>
             <FormattedMessage
               id="components.footer.copyright"
-              defaultMessage="© 2022 Ottawa Feng Dance School"
+              defaultMessage="© 2022 Feng Dance School"
             />
           </span>
         </div>
