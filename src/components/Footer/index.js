@@ -15,7 +15,7 @@ class Footer extends Component {
           </span>
           <span>
             <a className={style.link} 
-              href="mailto:dongfangwudaotuan@gmail.com"
+              href="mailto:fengdancestudio@gmail.com"
               target="_blank">
               fengdancestudio@gmail.com
             </a>
