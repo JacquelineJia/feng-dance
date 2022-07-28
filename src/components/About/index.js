@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
 import style from './About.module.scss';
+import styleVideo from '../Gallery/Gallery.module.scss';
 
 class About extends Component {
   render() {
@@ -20,6 +21,17 @@ class About extends Component {
               br: <span><br /><br /></span>,
             }}
           />
+        </span>
+        <span><br /><br /></span>
+        <span className={styleVideo.videoGroup}>
+          <span className={`${styleVideo.videoContainer} ${styleVideo.singleVideo}`}>
+            <iframe
+              title="Feng Dance Recital 2022"
+              src="https://www.youtube.com/embed/r0ah9Y77JyU"
+              allowfullscreen="allowfullscreen"
+            >
+            </iframe>
+          </span>
         </span>
       </div>
     );
