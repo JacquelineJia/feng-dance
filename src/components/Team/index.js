@@ -25,11 +25,14 @@ class Team extends Component {
                 <span className={style.role}>
                   <FormattedMessage
                     id="components.about.content.ourTeam.instructor.0"
-                    defaultMessage="Director, Ballet Instructor"
+                    defaultMessage="Founder and Director of Feng Dance,{linebreak}Ballet Teacher and Choreographer"
+                    values={{
+                      linebreak: <br />
+                    }}
                   />
                 </span>
               </span>
-              <div className={`${style.image}`}/>
+              <div className={`${style.image} ${style.imagePingFeng}`}/>
             </span>
             <span className={style.description}>
               <FormattedMessage
@@ -75,7 +78,7 @@ class Team extends Component {
                 <span className={style.name}>
                   <FormattedMessage
                     id="components.about.content.ourTeam.instructor.1.name"
-                    defaultMessage=""
+                    defaultMessage="Abbie Metcalfe"
                   />
                 </span>
                 <span className={style.role}>
@@ -85,7 +88,7 @@ class Team extends Component {
                   />
                 </span>
               </span>
-              <div className={`${style.image}`}/>
+              <div className={`${style.image} ${style.imageAbbieMetcalfe}`}/>
             </span>
             <span className={style.description}>
               <FormattedMessage
@@ -131,7 +134,7 @@ class Team extends Component {
                 <span className={style.name}>
                   <FormattedMessage
                     id="components.about.content.ourTeam.instructor.3.name"
-                    defaultMessage=""
+                    defaultMessage="Irene Shen"
                   />
                 </span>
                 <span className={style.role}>
@@ -141,7 +144,7 @@ class Team extends Component {
                   />
                 </span>
               </span>
-              <div className={`${style.image}`}/>
+              <div className={`${style.image} ${style.imageIreneShen}`}/>
             </span>
             <span className={style.description}>
               <FormattedMessage
@@ -159,7 +162,7 @@ class Team extends Component {
                 <span className={style.name}>
                   <FormattedMessage
                     id="components.about.content.ourTeam.instructor.4.name"
-                    defaultMessage=""
+                    defaultMessage="Zenisca Kalugdan"
                   />
                 </span>
                 <span className={style.role}>
@@ -187,7 +190,7 @@ class Team extends Component {
                 <span className={style.name}>
                   <FormattedMessage
                     id="components.about.content.ourTeam.instructor.5.name"
-                    defaultMessage=""
+                    defaultMessage="Simon Beckett"
                   />
                 </span>
                 <span className={style.role}>
@@ -215,7 +218,7 @@ class Team extends Component {
                 <span className={style.name}>
                   <FormattedMessage
                     id="components.about.content.ourTeam.instructor.6.name"
-                    defaultMessage=""
+                    defaultMessage="Rosie Hoult"
                   />
                 </span>
                 <span className={style.role}>
@@ -243,7 +246,7 @@ class Team extends Component {
                 <span className={style.name}>
                   <FormattedMessage
                     id="components.about.content.ourTeam.instructor.7.name"
-                    defaultMessage=""
+                    defaultMessage="Nicole Sun"
                   />
                 </span>
                 <span className={style.role}>
@@ -253,7 +256,7 @@ class Team extends Component {
                   />
                 </span>
               </span>
-              <div className={`${style.image}`}/>
+              <div className={`${style.image} ${style.imageNicoleSun}`}/>
             </span>
             <span className={style.description}>
               <FormattedMessage
@@ -271,7 +274,7 @@ class Team extends Component {
                 <span className={style.name}>
                   <FormattedMessage
                     id="components.about.content.ourTeam.instructor.8.name"
-                    defaultMessage=""
+                    defaultMessage="Kateleen Jia"
                   />
                 </span>
                 <span className={style.role}>
