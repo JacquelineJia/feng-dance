@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fe05fcf9f82e89af7cef",
+    "revision": "75daafc21907556fd173",
     "url": "/static/css/main.d25833a2.chunk.css"
   },
   {
-    "revision": "fe05fcf9f82e89af7cef",
-    "url": "/static/js/main.fe05fcf9.chunk.js"
+    "revision": "75daafc21907556fd173",
+    "url": "/static/js/main.75daafc2.chunk.js"
   },
   {
     "revision": "2ac886cfb602aa423085",
@@ -16,20 +16,20 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "d3c33e136aabcd1b1b3efe48d90aba48",
-    "url": "/static/media/ping-feng.d3c33e13.jpg"
-  },
-  {
     "revision": "00dd0942421c8e04ccf55a24e2f585ec",
     "url": "/static/media/diana-ding.00dd0942.jpg"
   },
   {
-    "revision": "5bed44712461f7e2613e4fd7415a8706",
-    "url": "/static/media/nicole-sun.5bed4471.jpg"
+    "revision": "d3c33e136aabcd1b1b3efe48d90aba48",
+    "url": "/static/media/ping-feng.d3c33e13.jpg"
   },
   {
     "revision": "412f08e42e3fe04518515159383e8b80",
     "url": "/static/media/abbie-metcalfe.412f08e4.jpg"
+  },
+  {
+    "revision": "5bed44712461f7e2613e4fd7415a8706",
+    "url": "/static/media/nicole-sun.5bed4471.jpg"
   },
   {
     "revision": "985ec3749e73276deb1e4c2d76eff649",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/home-page-img.c25c2126.jpg"
   },
   {
-    "revision": "3da3897173559bd7bef6c2e32ca54373",
+    "revision": "08711bcb704cd7ec8505c229f21a1457",
     "url": "/index.html"
   }
 ];
