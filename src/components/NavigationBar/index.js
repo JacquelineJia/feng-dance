@@ -37,14 +37,14 @@ class NavigationBar extends React.Component {
                   />
                 </a>
               </span>
-              {/*<span className={this.props.linkIndex === 4 ? style.pageOpen : null}>
+              <span className={this.props.linkIndex === 4 ? style.pageOpen : null}>
                 <a onClick={() => this.props.handleClick(4)}>
                   <FormattedMessage
                     id="components.navigationBar.menu.gallery"
                     defaultMessage="Gallery"
                   />
                 </a>
-              </span>*/}
+              </span>
             </div>
           </div>
           <button

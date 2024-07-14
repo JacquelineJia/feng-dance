@@ -26,8 +26,8 @@ class About extends Component {
         <span className={styleVideo.videoGroup}>
           <span className={`${styleVideo.videoContainer} ${styleVideo.singleVideo}`}>
             <iframe
-              title="Feng Dance Recital 2022"
-              src="https://www.youtube.com/embed/r0ah9Y77JyU"
+              title="Feng Dance 2024 Recital"
+              src="https://www.youtube.com/embed/dsCLRKAVoXc"
               allowfullscreen="allowfullscreen"
             >
             </iframe>

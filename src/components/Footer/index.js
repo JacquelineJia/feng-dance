@@ -23,13 +23,23 @@ class Footer extends Component {
           <span>
             (613) 864-6588
           </span>
-          {/* <div className="divider" /> */}
-          <span className={style.copyright}>
-            <FormattedMessage
-              id="components.footer.copyright"
-              defaultMessage="© 2022 Feng Dance School"
-            />
-          </span>
+          <div className={style.divider} />
+          <div className={style.lastLine}>
+            <div className={style.icons}>
+              <a class="bi bi-youtube"
+                href="https://www.youtube.com/@OttawaFengDance">
+              </a>
+              <a class="bi bi-instagram"
+                href="https://www.instagram.com/feng_dance">
+              </a>
+            </div>
+            <span className={style.copyright}>
+              <FormattedMessage
+                id="components.footer.copyright"
+                defaultMessage="© 2023 Feng Dance School"
+              />
+            </span>
+          </div>
         </div>
       </div>
     );
