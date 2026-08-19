@@ -77,6 +77,34 @@ class Team extends Component {
               <span className={style.column}>
                 <span className={style.name}>
                   <FormattedMessage
+                    id="components.about.content.ourTeam.instructor.9.name"
+                    defaultMessage="Giselle Ashmore"
+                  />
+                </span>
+                <span className={style.role}>
+                  <FormattedMessage
+                    id="components.about.content.ourTeam.instructor.9"
+                    defaultMessage="Dance Instructor and Choreographer"
+                  />
+                </span>
+              </span>
+              <div className={`${style.image} ${style.imageGiselleAshmore}`}/>
+            </span>
+            <span className={style.description}>
+              <FormattedMessage
+                id="components.about.content.ourTeam.instructor.9.about"
+                defaultMessage=""
+                values={{
+                  linebreak: <br />
+                }}
+              />
+            </span>
+          </span>
+          <span className={style.memberCard}>
+            <span className={style.column}>
+              <span className={style.column}>
+                <span className={style.name}>
+                  <FormattedMessage
                     id="components.about.content.ourTeam.instructor.1.name"
                     defaultMessage="Abbie Metcalfe"
                   />
@@ -93,62 +121,6 @@ class Team extends Component {
             <span className={style.description}>
               <FormattedMessage
                 id="components.about.content.ourTeam.instructor.1.about"
-                defaultMessage=""
-                values={{
-                  linebreak: <br />
-                }}
-              />
-            </span>
-          </span>
-          <span className={style.memberCard}>
-            <span className={style.column}>
-              <span className={style.column}>
-                <span className={style.name}>
-                  <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.4.name"
-                    defaultMessage="Zenisca Kalugdan"
-                  />
-                </span>
-                <span className={style.role}>
-                  <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.4"
-                    defaultMessage="Dance Instructor"
-                  />
-                </span>
-              </span>
-              <div className={`${style.image}`}/>
-            </span>
-            <span className={style.description}>
-              <FormattedMessage
-                id="components.about.content.ourTeam.instructor.4.about"
-                defaultMessage=""
-                values={{
-                  linebreak: <br />
-                }}
-              />
-            </span>
-          </span>
-          <span className={style.memberCard}>
-            <span className={style.column}>
-              <span className={style.column}>
-                <span className={style.name}>
-                  <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.5.name"
-                    defaultMessage="Simon Beckett"
-                  />
-                </span>
-                <span className={style.role}>
-                  <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.5"
-                    defaultMessage="Dance Instructor"
-                  />
-                </span>
-              </span>
-              <div className={`${style.image}`}/>
-            </span>
-            <span className={style.description}>
-              <FormattedMessage
-                id="components.about.content.ourTeam.instructor.5.about"
                 defaultMessage=""
                 values={{
                   linebreak: <br />
@@ -189,6 +161,34 @@ class Team extends Component {
               <span className={style.column}>
                 <span className={style.name}>
                   <FormattedMessage
+                    id="components.about.content.ourTeam.instructor.2.name"
+                    defaultMessage="Wendy Hou"
+                  />
+                </span>
+                <span className={style.role}>
+                  <FormattedMessage
+                    id="components.about.content.ourTeam.instructor.2"
+                    defaultMessage="Dance Instructor"
+                  />
+                </span>
+              </span>
+              <div className={`${style.image} ${style.imageWendyHou}`}/>
+            </span>
+            <span className={style.description}>
+              <FormattedMessage
+                id="components.about.content.ourTeam.instructor.2.about"
+                defaultMessage=""
+                values={{
+                  linebreak: <br />
+                }}
+              />
+            </span>
+          </span>
+          <span className={style.memberCard}>
+            <span className={style.column}>
+              <span className={style.column}>
+                <span className={style.name}>
+                  <FormattedMessage
                     id="components.about.content.ourTeam.instructor.8.name"
                     defaultMessage="Kateleen Jia"
                   />
@@ -200,7 +200,7 @@ class Team extends Component {
                   />
                 </span>
               </span>
-              <div className={`${style.image}`}/>
+              <div className={`${style.image} ${style.imageKateleenJia}`}/>
             </span>
             <span className={style.description}>
               <FormattedMessage

@@ -36,7 +36,7 @@ class Footer extends Component {
             <span className={style.copyright}>
               <FormattedMessage
                 id="components.footer.copyright"
-                defaultMessage="© 2023 Feng Dance School"
+                defaultMessage="© 2026 Feng Dance School"
               />
             </span>
           </div>
