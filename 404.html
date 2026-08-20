@@ -2,19 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Redirecting...</title>
-    <script>
-      // Redirects /team → /?/team, preserving the path
-      var segmentCount = 0; // adjust if your site is in a subfolder, e.g. github.io/repo-name
+    <title>Feng Dance School</title>
+    <script type="text/javascript">
+      var pathSegmentsToKeep = 0;
+
       var l = window.location;
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?/' +
-        l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?p=/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
         l.hash
       );
     </script>
   </head>
-  <body></body>
+  <body>
+  </body>
 </html>
