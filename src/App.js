@@ -4,12 +4,14 @@ import { IntlProvider } from 'react-intl';
 import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
 
 import About from './components/About';
+import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import HeaderImage from './components/HeaderImage';
 import Home from './components/Home';
 import NavigationBar from './components/NavigationBar';
 import Programs from './components/Programs';
+import Register from './components/Register';
 import Team from './components/Team';
 //import logo from './logo.svg';
 import messages from './translations/messages';
@@ -66,13 +68,21 @@ class App extends React.Component {
             <meta name="language" content="EN"/>
           </Helmet>
           <Router>
-            <NavigationBar onChangeLanguage={this.onChangeLanguage} handleClick={this.handleClick} linkIndex={this.state.linkIndex}/>
-            <HeaderImage />
+            <NavigationBar onChangeLanguage={this.onChangeLanguage} />
+            <div className="heroWrapper">
+              {/* <Route exact path="/" component={Banner} /> */}
+              <Banner />
+              <HeaderImage />
+            </div>
             <div className="appPaddingWrapper pageContent">
-              {this.state.linkIndex === 1 && <About />}
-              {this.state.linkIndex === 2 && <Programs />}
-              {this.state.linkIndex === 3 && <Team />}
-              {this.state.linkIndex === 4 && <Gallery />}
+              <Switch>
+                <Route exact path="/" component={About} />
+                <Route path="/programs" component={Programs} />
+                <Route path="/team" component={Team} />
+                <Route path="/gallery" component={Gallery} />
+                <Route path="/register" component={Register} />
+                <Redirect to="/" />
+              </Switch>
             </div>
             <Footer />
           </Router>

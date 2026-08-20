@@ -1,0 +1,23 @@
+@import "../../styles/_colors";
+
+.banner {
+  background-color: $primary-color;
+  box-sizing: border-box;
+  color: $white;
+  font-family: 'Roboto Condensed';
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.24em;
+  padding: 0.5em 1em;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; // sits above the image
+
+  @media (max-width: 767px) {
+    letter-spacing: 0.1em;
+  }
+}

@@ -38,18 +38,23 @@
     @media (max-width: 767px) {
       flex-direction: column;
     }
+    > .column {
+      flex: 0 0 250px; // fixed width, matches .image, won't grow/shrink
+    }
 
     .name {
-      align-self: baseline;
+      align-self: stretch;
       font-size: 24px;
       margin-bottom: 0.5em;
       margin-right: 1em;
+      text-align: left;
     }
 
     .role {
-      align-self: baseline;
+      align-self: stretch;
       font-size: 18px;
       margin-bottom: 0.5em;
+      text-align: left;
     }
 
     .image {
@@ -137,6 +142,7 @@
     .description {
       align-self: center;
       flex: 1 1;
+      min-width: 0;
       margin-left: 1em;
       margin-top: 0;
       @media (max-width: 767px) {

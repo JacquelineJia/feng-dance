@@ -1,17 +1,23 @@
 @import "../../styles/_colors";
 
 .navBar {
-  background-color: $primary-color-fadded-alittle;
-  //background: linear-gradient($primary-color-fadded-alittle 70%, transparent 100%);
+  background-color: $primary-color-light;
   box-sizing: border-box;
   color: $light-gray;
   font-size: 18px;
-  padding-bottom: 30px;
+  letter-spacing: 0.05em;
+  padding-bottom: 20px;
   padding-top: 30px;
-  position: absolute;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 99;
+
+  @media (max-width: 1023px) {
+    letter-spacing: 0.03em;
+    padding-bottom: 5px;
+    position: static;
+  }
 }
 
 .body{
@@ -32,7 +38,10 @@
     font-size: 22px;
     margin-bottom: 0.25em;
     margin-right: 25px;
-    .pageOpen {
+    .pageOpen,
+    .pageOpen:hover,
+    .pageOpen:focus,
+    .pageOpen:active {
       color: $white;
     }
     a, a:hover, a:focus, a:active {
@@ -52,7 +61,10 @@
     margin-bottom: 1em;
     margin-right: 1em;
     vertical-align: bottom;
-    .pageOpen {
+    .pageOpen,
+    .pageOpen:hover,
+    .pageOpen:focus,
+    .pageOpen:active {
       color: $white;
     }
     a, a:hover, a:focus, a:active {
@@ -84,8 +96,8 @@
   margin-left: auto;
   max-height: 2em;
   min-width: 65px;
-  padding-left: 0.9em;
-  padding-right: 0.9em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   &:hover {
     background-color: $white-fadded-1;
   }
