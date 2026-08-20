@@ -96,7 +96,13 @@
     .pageOpen:hover,
     .pageOpen:focus,
     .pageOpen:active {
+      border-bottom: 2px solid $white;
       color: $white;
+      padding-bottom: 4px;
+
+      @media (max-width: 767px) {
+        padding-bottom: 1px;
+      }
     }
     a, a:hover, a:focus, a:active {
       text-decoration: none;
