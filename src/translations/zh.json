@@ -32,7 +32,7 @@
   "components.about.content.ourTeam.instructor.9.name": "Giselle Ashmore",
   "components.about.title": "关于我们",
   "components.banner.message": "Fall 2026/27 registration ongoing",
-  "components.footer.copyright": "© 2026 Feng Dance School",
+  "components.footer.copyright": "© {year} Feng Dance School",
   "components.footer.title.contactUs": "联系我们",
   "components.gallery.title": "精彩回顾",
   "components.navigationBar.menu.about": "概况",
