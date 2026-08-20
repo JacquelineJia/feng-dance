@@ -1,15 +1,16 @@
 {
-  "main.css": "/static/css/main.4ed16638.chunk.css",
-  "main.js": "/static/js/main.fd9253e8.chunk.js",
-  "main.js.map": "/static/js/main.fd9253e8.chunk.js.map",
-  "static/js/1.f86e5525.chunk.js": "/static/js/1.f86e5525.chunk.js",
-  "static/js/1.f86e5525.chunk.js.map": "/static/js/1.f86e5525.chunk.js.map",
+  "main.css": "/static/css/main.81e7096d.chunk.css",
+  "main.js": "/static/js/main.e3b9d01f.chunk.js",
+  "main.js.map": "/static/js/main.e3b9d01f.chunk.js.map",
+  "static/js/1.954f258c.chunk.js": "/static/js/1.954f258c.chunk.js",
+  "static/js/1.954f258c.chunk.js.map": "/static/js/1.954f258c.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/Team.module.scss": "/static/media/wendy-hou.ca491496.jpg",
+  "static/media/NavigationBar.module.scss": "/static/media/logo.9063f49e.png",
   "static/media/HeaderImage.module.scss": "/static/media/home-page-img.3aff538b.jpg",
-  "static/css/main.4ed16638.chunk.css.map": "/static/css/main.4ed16638.chunk.css.map",
+  "static/css/main.81e7096d.chunk.css.map": "/static/css/main.81e7096d.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.3ed2ca2c17902a334f2e55cf0702f876.js": "/precache-manifest.3ed2ca2c17902a334f2e55cf0702f876.js",
+  "precache-manifest.95da1386b43b23b984e0b9fe8583fe40.js": "/precache-manifest.95da1386b43b23b984e0b9fe8583fe40.js",
   "service-worker.js": "/service-worker.js"
 }
