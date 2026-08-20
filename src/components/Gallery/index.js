@@ -15,6 +15,16 @@ class Gallery extends Component {
         <span className={style.videoGroup}>
           <span className={`${style.videoContainer} ${style.singleVideo}`}>
             <iframe
+              title="Feng Dance RAD G2 Exam Day"
+              src="https://www.youtube.com/embed/cw5u3BGzNsA"
+              allowfullscreen="allowfullscreen"
+            >
+            </iframe>
+          </span>
+        </span>
+        <span className={style.videoGroup}>
+          <span className={`${style.videoContainer} ${style.singleVideo}`}>
+            <iframe
               title="Feng Dance 2024 Recital"
               src="https://www.youtube.com/embed/dsCLRKAVoXc"
               allowfullscreen="allowfullscreen"
@@ -25,8 +35,8 @@ class Gallery extends Component {
         <span className={style.videoGroup}>
           <span className={`${style.videoContainer} ${style.singleVideo}`}>
             <iframe
-              title="Feng Dance Recital 2022"
-              src="https://www.youtube.com/embed/r0ah9Y77JyU"
+              title="Feng Dance 2023 Showcase"
+              src="https://www.youtube.com/embed/WnFRhhttHeE"
               allowfullscreen="allowfullscreen"
             >
             </iframe>

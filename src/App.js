@@ -8,7 +8,7 @@ import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import HeaderImage from './components/HeaderImage';
-import Home from './components/Home';
+// import Home from './components/Home';
 import NavigationBar from './components/NavigationBar';
 import Programs from './components/Programs';
 import Register from './components/Register';

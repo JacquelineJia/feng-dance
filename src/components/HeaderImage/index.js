@@ -1,5 +1,4 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
 import { withRouter } from "react-router-dom";
 
 import style from './HeaderImage.module.scss';

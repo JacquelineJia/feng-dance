@@ -30,7 +30,38 @@
   display: flex;
   flex-grow: 1;
   flex-wrap: wrap;
+  position: relative;
   text-shadow: 0px 0px 5px $black;
+
+  .logoWrapper {
+    align-items: center;
+    display: flex;
+    height: 92px; // navbar's full height — measure in devtools, adjust to match
+    left: -80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -40px;
+    z-index: 10;
+
+    @media (max-width: 1023px) {
+      display: none;
+    }
+  }
+
+  .logo {
+    border-radius: 5px;
+    height: 72px; // logoWrapper's height minus its margins (92 - 10 - 10)
+    width: 72px;
+    max-width: 200px;
+  }
+
+  .imageLogo {
+    background: url("../../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
 
   .name {
     color: $white-fadded-2;

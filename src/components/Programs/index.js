@@ -15,9 +15,9 @@ class Programs extends Component {
         <span className={style.content}>
           <FormattedMessage
             id="components.programs.content"
-            defaultMessage="We have children ballet, jazz, flexibility, and chinese dance programs. Contact us for schedules."
+            defaultMessage=""
             values={{
-              br: <span><br /><br /></span>,
+              linebreak: <br />
             }}
           />
         </span>

@@ -10,6 +10,11 @@ class NavigationBar extends React.Component {
       <div className={`${style.navBar} appPaddingWrapper`}>
         <div className={`${style.body} appContentWidth`}>
           <div className={style.header}>
+            <div className={style.logoWrapper}>
+              <NavLink exact to="/">
+                <div className={`${style.logo} ${style.imageLogo}`}/>
+              </NavLink>
+            </div>
             <div className={style.name}>
               <span>
                 <NavLink exact to="/" activeClassName={style.pageOpen}>
