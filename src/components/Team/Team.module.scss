@@ -129,6 +129,18 @@
       }
     }
 
+    .imageKateleenJia {
+      background: url("../../images/kateleen-jia.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      height: 250px;
+      min-height: 250px;
+      @media (max-width: 767px) {
+        margin-bottom: 2em;
+      }
+    }
+
     .imageNicoleSun {
       background: url("../../images/nicole-sun.jpg");
       background-repeat: no-repeat;
