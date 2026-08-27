@@ -18,13 +18,13 @@ class Team extends Component {
               <span className={style.column}>
                 <span className={style.name}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.0.name"
+                    id="components.team.content.ourTeam.instructor.0.name"
                     defaultMessage="Ping Feng"
                   />
                 </span>
                 <span className={style.role}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.0"
+                    id="components.team.content.ourTeam.instructor.0"
                     defaultMessage="Founder and Director of Feng Dance,{linebreak}Ballet Teacher and Choreographer"
                     values={{
                       linebreak: <br />
@@ -36,7 +36,7 @@ class Team extends Component {
             </span>
             <span className={style.description}>
               <FormattedMessage
-                id="components.about.content.ourTeam.instructor.0.about"
+                id="components.team.content.ourTeam.instructor.0.about"
                 defaultMessage=""
                 values={{
                   linebreak: <br />
@@ -49,13 +49,13 @@ class Team extends Component {
               <span className={style.column}>
                 <span className={style.name}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.director.name"
+                    id="components.team.content.ourTeam.director.name"
                     defaultMessage="Tao Ding"
                   />
                 </span>
                 <span className={style.role}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.director"
+                    id="components.team.content.ourTeam.director"
                     defaultMessage="Director"
                   />
                 </span>
@@ -64,7 +64,7 @@ class Team extends Component {
             </span>
             <span className={style.description}>
               <FormattedMessage
-                id="components.about.content.ourTeam.director.about"
+                id="components.team.content.ourTeam.director.about"
                 defaultMessage=""
                 values={{
                   linebreak: <br />
@@ -77,13 +77,13 @@ class Team extends Component {
               <span className={style.column}>
                 <span className={style.name}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.9.name"
+                    id="components.team.content.ourTeam.instructor.9.name"
                     defaultMessage="Giselle Ashmore"
                   />
                 </span>
                 <span className={style.role}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.9"
+                    id="components.team.content.ourTeam.instructor.9"
                     defaultMessage="Dance Instructor and Choreographer"
                   />
                 </span>
@@ -92,7 +92,7 @@ class Team extends Component {
             </span>
             <span className={style.description}>
               <FormattedMessage
-                id="components.about.content.ourTeam.instructor.9.about"
+                id="components.team.content.ourTeam.instructor.9.about"
                 defaultMessage=""
                 values={{
                   linebreak: <br />
@@ -105,13 +105,13 @@ class Team extends Component {
               <span className={style.column}>
                 <span className={style.name}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.1.name"
+                    id="components.team.content.ourTeam.instructor.1.name"
                     defaultMessage="Abbie Metcalfe"
                   />
                 </span>
                 <span className={style.role}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.1"
+                    id="components.team.content.ourTeam.instructor.1"
                     defaultMessage="Dance Instructor"
                   />
                 </span>
@@ -120,7 +120,7 @@ class Team extends Component {
             </span>
             <span className={style.description}>
               <FormattedMessage
-                id="components.about.content.ourTeam.instructor.1.about"
+                id="components.team.content.ourTeam.instructor.1.about"
                 defaultMessage=""
                 values={{
                   linebreak: <br />
@@ -133,13 +133,13 @@ class Team extends Component {
               <span className={style.column}>
                 <span className={style.name}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.7.name"
+                    id="components.team.content.ourTeam.instructor.7.name"
                     defaultMessage="Nicole Sun"
                   />
                 </span>
                 <span className={style.role}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.7"
+                    id="components.team.content.ourTeam.instructor.7"
                     defaultMessage="Dance Instructor"
                   />
                 </span>
@@ -148,7 +148,7 @@ class Team extends Component {
             </span>
             <span className={style.description}>
               <FormattedMessage
-                id="components.about.content.ourTeam.instructor.7.about"
+                id="components.team.content.ourTeam.instructor.7.about"
                 defaultMessage=""
                 values={{
                   linebreak: <br />
@@ -161,13 +161,13 @@ class Team extends Component {
               <span className={style.column}>
                 <span className={style.name}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.2.name"
+                    id="components.team.content.ourTeam.instructor.2.name"
                     defaultMessage="Wendy Hou"
                   />
                 </span>
                 <span className={style.role}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.2"
+                    id="components.team.content.ourTeam.instructor.2"
                     defaultMessage="Dance Instructor"
                   />
                 </span>
@@ -176,7 +176,7 @@ class Team extends Component {
             </span>
             <span className={style.description}>
               <FormattedMessage
-                id="components.about.content.ourTeam.instructor.2.about"
+                id="components.team.content.ourTeam.instructor.2.about"
                 defaultMessage=""
                 values={{
                   linebreak: <br />
@@ -189,13 +189,13 @@ class Team extends Component {
               <span className={style.column}>
                 <span className={style.name}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.8.name"
+                    id="components.team.content.ourTeam.instructor.8.name"
                     defaultMessage="Kateleen Jia"
                   />
                 </span>
                 <span className={style.role}>
                   <FormattedMessage
-                    id="components.about.content.ourTeam.instructor.8"
+                    id="components.team.content.ourTeam.instructor.8"
                     defaultMessage="Dance Instructor"
                   />
                 </span>
@@ -204,7 +204,7 @@ class Team extends Component {
             </span>
             <span className={style.description}>
               <FormattedMessage
-                id="components.about.content.ourTeam.instructor.8.about"
+                id="components.team.content.ourTeam.instructor.8.about"
                 defaultMessage=""
                 values={{
                   linebreak: <br />
