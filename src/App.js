@@ -7,6 +7,7 @@ import About from './components/About';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
+import Job from './components/Job';
 import HeaderImage from './components/HeaderImage';
 import NavigationBar from './components/NavigationBar';
 import Programs from './components/Programs';
@@ -23,6 +24,13 @@ let locale = (navigator.languages && navigator.languages[0])
 
 if (locale.startsWith('zh')) locale = 'zh';
 else locale = 'en';
+
+const defaultRichTextElements = {
+  p: chunks => <p>{chunks}</p>,
+  li: chunks => <li>{chunks}</li>,
+  b: chunks => <strong>{chunks}</strong>,
+  linebreak: <br />
+};
 
 class App extends React.Component {
   state = {
@@ -56,7 +64,7 @@ class App extends React.Component {
   render() {
     const { i18nConfig } = this.state;
     return (
-      <IntlProvider {...i18nConfig}>
+      <IntlProvider {...i18nConfig} defaultRichTextElements={defaultRichTextElements}>
         <div className="app">
           <Helmet>
             <title>Feng Dance School</title>
@@ -80,6 +88,7 @@ class App extends React.Component {
                 <Route path="/team" component={Team} />
                 <Route path="/gallery" component={Gallery} />
                 <Route path="/register" component={Register} />
+                <Route path="/jobs" component={Job} />
                 <Redirect to="/" />
               </Switch>
             </div>

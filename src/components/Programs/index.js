@@ -16,9 +16,6 @@ class Programs extends Component {
           <FormattedMessage
             id="components.programs.content"
             defaultMessage=""
-            values={{
-              linebreak: <br />
-            }}
           />
         </span>
       </div>

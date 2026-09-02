@@ -50,6 +50,14 @@ class NavigationBar extends React.Component {
                   />
                 </NavLink>
               </span>
+              <span>
+                <NavLink to="/jobs" activeClassName={style.pageOpen}>
+                  <FormattedMessage
+                    id="components.navigationBar.menu.jobs"
+                    defaultMessage="Job Opportunity"
+                  />
+                </NavLink>
+              </span>
               {/* <span>
                 <NavLink to="/register" activeClassName={style.pageOpen}>
                   <FormattedMessage

@@ -26,9 +26,6 @@ class Team extends Component {
                   <FormattedMessage
                     id="components.team.content.ourTeam.instructor.0"
                     defaultMessage="Founder and Director of Feng Dance,{linebreak}Ballet Teacher and Choreographer"
-                    values={{
-                      linebreak: <br />
-                    }}
                   />
                 </span>
               </span>
@@ -38,9 +35,6 @@ class Team extends Component {
               <FormattedMessage
                 id="components.team.content.ourTeam.instructor.0.about"
                 defaultMessage=""
-                values={{
-                  linebreak: <br />
-                }}
               />
             </span>
           </span>
@@ -66,9 +60,6 @@ class Team extends Component {
               <FormattedMessage
                 id="components.team.content.ourTeam.director.about"
                 defaultMessage=""
-                values={{
-                  linebreak: <br />
-                }}
               />
             </span>
           </span>
@@ -94,9 +85,6 @@ class Team extends Component {
               <FormattedMessage
                 id="components.team.content.ourTeam.instructor.9.about"
                 defaultMessage=""
-                values={{
-                  linebreak: <br />
-                }}
               />
             </span>
           </span>
@@ -122,9 +110,6 @@ class Team extends Component {
               <FormattedMessage
                 id="components.team.content.ourTeam.instructor.1.about"
                 defaultMessage=""
-                values={{
-                  linebreak: <br />
-                }}
               />
             </span>
           </span>
@@ -150,9 +135,6 @@ class Team extends Component {
               <FormattedMessage
                 id="components.team.content.ourTeam.instructor.7.about"
                 defaultMessage=""
-                values={{
-                  linebreak: <br />
-                }}
               />
             </span>
           </span>
@@ -178,9 +160,6 @@ class Team extends Component {
               <FormattedMessage
                 id="components.team.content.ourTeam.instructor.2.about"
                 defaultMessage=""
-                values={{
-                  linebreak: <br />
-                }}
               />
             </span>
           </span>
@@ -206,9 +185,6 @@ class Team extends Component {
               <FormattedMessage
                 id="components.team.content.ourTeam.instructor.8.about"
                 defaultMessage=""
-                values={{
-                  linebreak: <br />
-                }}
               />
             </span>
           </span>
