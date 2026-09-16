@@ -68,31 +68,6 @@ class Team extends Component {
               <span className={style.column}>
                 <span className={style.name}>
                   <FormattedMessage
-                    id="components.team.content.ourTeam.instructor.9.name"
-                    defaultMessage="Giselle Ashmore"
-                  />
-                </span>
-                <span className={style.role}>
-                  <FormattedMessage
-                    id="components.team.content.ourTeam.instructor.9"
-                    defaultMessage="Dance Instructor and Choreographer"
-                  />
-                </span>
-              </span>
-              <div className={`${style.image} ${style.imageGiselleAshmore}`}/>
-            </span>
-            <span className={style.description}>
-              <FormattedMessage
-                id="components.team.content.ourTeam.instructor.9.about"
-                defaultMessage=""
-              />
-            </span>
-          </span>
-          <span className={style.memberCard}>
-            <span className={style.column}>
-              <span className={style.column}>
-                <span className={style.name}>
-                  <FormattedMessage
                     id="components.team.content.ourTeam.instructor.1.name"
                     defaultMessage="Abbie Metcalfe"
                   />
@@ -143,6 +118,31 @@ class Team extends Component {
               <span className={style.column}>
                 <span className={style.name}>
                   <FormattedMessage
+                    id="components.team.content.ourTeam.instructor.3.name"
+                    defaultMessage="Cassie Lafleur"
+                  />
+                </span>
+                <span className={style.role}>
+                  <FormattedMessage
+                    id="components.team.content.ourTeam.instructor.3"
+                    defaultMessage="Dance Instructor"
+                  />
+                </span>
+              </span>
+              <div className={`${style.image} ${style.imageCassieLafleur}`}/>
+            </span>
+            <span className={style.description}>
+              <FormattedMessage
+                id="components.team.content.ourTeam.instructor.3.about"
+                defaultMessage=""
+              />
+            </span>
+          </span>
+          <span className={style.memberCard}>
+            <span className={style.column}>
+              <span className={style.column}>
+                <span className={style.name}>
+                  <FormattedMessage
                     id="components.team.content.ourTeam.instructor.2.name"
                     defaultMessage="Wendy Hou"
                   />
@@ -159,6 +159,31 @@ class Team extends Component {
             <span className={style.description}>
               <FormattedMessage
                 id="components.team.content.ourTeam.instructor.2.about"
+                defaultMessage=""
+              />
+            </span>
+          </span>
+          <span className={style.memberCard}>
+            <span className={style.column}>
+              <span className={style.column}>
+                <span className={style.name}>
+                  <FormattedMessage
+                    id="components.team.content.ourTeam.instructor.9.name"
+                    defaultMessage="Giselle Ashmore"
+                  />
+                </span>
+                <span className={style.role}>
+                  <FormattedMessage
+                    id="components.team.content.ourTeam.instructor.9"
+                    defaultMessage="Dance Instructor and Choreographer"
+                  />
+                </span>
+              </span>
+              <div className={`${style.image} ${style.imageGiselleAshmore}`}/>
+            </span>
+            <span className={style.description}>
+              <FormattedMessage
+                id="components.team.content.ourTeam.instructor.9.about"
                 defaultMessage=""
               />
             </span>
