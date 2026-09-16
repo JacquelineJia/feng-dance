@@ -1,19 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "0796cb6010e0a6f92641",
-    "url": "/static/css/main.665bad97.chunk.css"
+    "revision": "24491da2176d6ca85040",
+    "url": "/static/css/main.db83a389.chunk.css"
   },
   {
-    "revision": "0796cb6010e0a6f92641",
-    "url": "/static/js/main.0796cb60.chunk.js"
+    "revision": "24491da2176d6ca85040",
+    "url": "/static/js/main.24491da2.chunk.js"
   },
   {
-    "revision": "75c27a22c0fe42ff2d29",
-    "url": "/static/js/1.75c27a22.chunk.js"
+    "revision": "17cee1a0da9f04447f5e",
+    "url": "/static/js/1.17cee1a0.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
+  },
+  {
+    "revision": "f418e813440c931a7d324db61eb07d9a",
+    "url": "/static/media/tao-ding.f418e813.jpg"
   },
   {
     "revision": "20380bf4b0a666d8c8dfd2e671869bf7",
@@ -22,10 +26,6 @@ self.__precacheManifest = [
   {
     "revision": "5d1811d7e684f8b9dcb6a6deca82e46a",
     "url": "/static/media/giselle-ashmore.5d1811d7.jpg"
-  },
-  {
-    "revision": "f418e813440c931a7d324db61eb07d9a",
-    "url": "/static/media/tao-ding.f418e813.jpg"
   },
   {
     "revision": "a68fbb0fb74f9a9e883ce7a48beadeb0",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/home-page-img.3aff538b.jpg"
   },
   {
-    "revision": "b09d9b91caf011c62df360eac7900019",
+    "revision": "f81b00c14f6c47372d9aa1311d8e2dd7",
     "url": "/index.html"
   }
 ];
