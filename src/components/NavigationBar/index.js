@@ -58,14 +58,14 @@ class NavigationBar extends React.Component {
                   />
                 </NavLink>
               </span>
-              {/* <span>
+              <span>
                 <NavLink to="/register" activeClassName={style.pageOpen}>
                   <FormattedMessage
                     id="components.navigationBar.menu.register"
                     defaultMessage="Register"
                   />
                 </NavLink>
-              </span> */}
+              </span>
               <span></span>
             </div>
           </div>

@@ -1,14 +1,15 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import { Link } from 'react-router-dom';
 import style from './Banner.module.scss';
 
 const Banner = () => (
-  <div className={style.banner}>
+  <Link to="/register" className={style.banner}>
     <FormattedMessage
       id="components.banner.message"
       defaultMessage="Enrollment for Fall classes is now open!"
     />
-  </div>
+  </Link>
 );
 
 export default Banner;
